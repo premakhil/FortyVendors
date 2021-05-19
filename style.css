@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    
+}
+
+.logo {
+        font-weight: bold;
+    }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    
+    
+}
+
+
+
+.hamburger-menu {
+    color: #fff;
+}
+
+.fa-shopping-bag {
+    color: #fff;
+    
+}
+
+.logo-section {
+    padding-left: 2rem;
+}
+
+
+.navigation-bar {
+    background-color: #104999 !important;
+    
+    
+
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #fff;
+    
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+}
+
+li {
+    padding: 1rem;
+}
+
+.contact-button {
+    font-weight: 500;
+    border-radius: 1rem;
+    border-width: 3px;
+    font-size: larger;
+
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1em;
+  position: relative;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.navbar .navbar-nav .nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fff;
+  color: transparent;
+  width: 0%;
+  content: '.';
+  height: 3px;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    }
+
+.contact-button {
+    font-weight: 200;
+    border-radius: 1rem;
+    border-width: 3px;
+    font-size: 15px;
+
+    }
+
+    .logo {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .logo-section {
+    padding-left: 1rem;
+}
+}
