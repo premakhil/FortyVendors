@@ -1,6 +1,6 @@
 $("#learn-more-btn").click(
     function () {
-        $("#learn-more-btn").removeClass("active-color");
+        $("#learn-more-btn").removeClass("active-color");  //button's color doesn't change on click.
         $(this).addClass("active-color");
     }
 )
@@ -11,9 +11,12 @@ $("#learn-more-btn").click(
 
 
 $(function () {
-    new WOW().init();       // Initiate the wowjs
+    new WOW().init();       // Initiate the wowjs.
 });
 
-$('.navbar-collapse a').click(function () {    //Collapse navbar on click 
+$('.navbar-collapse a').click(function () {    //Collapse navbar on click.
     $(".navbar-collapse").collapse('hide');
 });
+
+
+

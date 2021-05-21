@@ -164,6 +164,14 @@ li {
         font-size: 2.3rem;
     }
 
+    .catalog-tag {
+        display: flex;
+        justify-content: center;
+        font-size: 2.3rem;
+        margin-top: 2.5rem;
+    }
+
+
     .jumbotron2 {
     margin-top: 1rem;
     border-radius: 1rem;
@@ -171,6 +179,39 @@ li {
     background: #fff;
     font-family: 'Poppins', sans-serif;
 }
+
+    .catalog-class {
+        /* margin-top: 2.5rem; */
+        background-color: #1D256E  ;
+        /* min-height: 130vh; */
+        padding-left:2rem ;
+        padding-right: 2rem;
+        
+    }
+
+    .dress-box {
+        background-color: #FAFADE;
+        /* height: 200px; */
+        /* width: 200px; */
+        border-radius: 0.35rem;
+        height: 14rem;
+    }
+
+    #catalog {
+        min-height: 100vh;
+    }
+    
+    .dress-images {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .vector-art{
+      width: 7rem;
+      margin-left: 3rem;
+
+  }
+
     
 
 }
@@ -204,3 +245,11 @@ li {
     
 
 }
+
+@media screen and (max-width: 350px) {  /*for vector art on iphone 5/se */
+  .vector-art{
+      width: 5rem;
+
+  }
+}
+
