@@ -127,7 +127,24 @@ li {
 }
 
 
+#movetop {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    
+    background-color: #1D256E;
+    border-radius: 50px;
+    font-size: 1.5rem;
 
+
+}
 
 
 
