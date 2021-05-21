@@ -11,13 +11,19 @@ $("#learn-more-btn").click(
 
 
 
-$('.navbar-collapse a').click(function () {    //Collapse navbar on click.
+$('.navbar-collapse a').click(function () {    //Collapse navbar on clicking on link.
+    $(".navbar-collapse").collapse('hide');
+});
+
+$('.navbar-collapse button').click(function () {    //Collapse navbar on clicking on button.
     $(".navbar-collapse").collapse('hide');
 });
 
 
-function scroller() {
 
+function scroller() {
+    var elem = document.getElementById("footer-class");
+    elem.scrollIntoView();
 }
 
 

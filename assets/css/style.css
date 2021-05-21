@@ -122,7 +122,7 @@ li {
     border-color: #FF7F2D !important;
 }
 
-.remove-decoration {
+.icons, .icons:hover, .icons:active, .icons:visited, .icons:focus {
     text-decoration: none;
 }
 
@@ -278,8 +278,8 @@ li {
     }
 
     
-    #
-    footer-class {
+    
+    #footer-class {
         margin-top: 7rem;
         background-color: #fff;
         min-height: 17vh;
