@@ -122,6 +122,10 @@ li {
     border-color: #FF7F2D !important;
 }
 
+.remove-decoration {
+    text-decoration: none;
+}
+
 
 
 
@@ -214,7 +218,7 @@ li {
 
   }
 
-    .footer-class {
+    #footer-class {
         margin-top: 7rem;
         background-color: #fff;
         min-height: 18vh;
@@ -245,6 +249,8 @@ li {
 
     
 
+    
+
 }
 
 @media (min-width: 576px) {   /*for desktop */
@@ -271,7 +277,9 @@ li {
         font-size: 1.75rem;
     }
 
-    .footer-class {
+    
+    #
+    footer-class {
         margin-top: 7rem;
         background-color: #fff;
         min-height: 17vh;

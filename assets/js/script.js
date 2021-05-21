@@ -16,4 +16,8 @@ $('.navbar-collapse a').click(function () {    //Collapse navbar on click.
 });
 
 
+function scroller() {
+
+}
+
 
