@@ -59,6 +59,7 @@ a {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: larger;
+    
 }
 
 li {
@@ -195,6 +196,7 @@ li {
         /* width: 200px; */
         border-radius: 0.35rem;
         height: 14rem;
+        border-color: #fff;
     }
 
     #catalog {
@@ -211,6 +213,35 @@ li {
       margin-left: 3rem;
 
   }
+
+    .footer-class {
+        margin-top: 7rem;
+        background-color: #fff;
+        min-height: 18vh;
+        text-align: center;
+        font-family: sans-serif;
+        padding-top: 2rem;
+        font-size: 15px;
+    }
+
+    .contact-list li {
+        display: inline-block;
+        list-style: none;
+        color: #1D256E;
+        font-size: 14px;
+        
+        
+        
+        
+    }
+
+    .contact-list {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        padding: 0;
+
+    }
 
     
 
@@ -238,6 +269,12 @@ li {
 
     .lead {
         font-size: 1.75rem;
+    }
+
+    .footer-class {
+        margin-top: 7rem;
+        background-color: #fff;
+        min-height: 17vh;
     }
 
    
